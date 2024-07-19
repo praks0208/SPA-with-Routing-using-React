@@ -5,10 +5,10 @@ import {
   Route,
 } from "react-router-dom";
 import HomePage from "./pages/Home";
-import ProductsPage from "./pages/Product";
+import ProductsPage from "./pages/Products";
 import RootLayout from "./pages/Root";
 import ErrorPage from "./pages/Error";
-import ProductDetailsPage from "./pages/ProductDetails";
+import ProductDetailsPage from "./pages/ProductDetail";
 
 // const routeDefinitions = createRoutesFromElements(
 //   <Route>
@@ -24,9 +24,9 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     children: [
-      { path: "/", element: <HomePage /> },
-      { path: "/products", element: <ProductsPage /> },
-      { path: "/products/:productId", element: <ProductDetailsPage /> },
+      { path: "", element: <HomePage /> },
+      { path: "products", element: <ProductsPage /> },
+      { path: "products/:productId", element: <ProductDetailsPage /> },
     ],
   },
 ]);
