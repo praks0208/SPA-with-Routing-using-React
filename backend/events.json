@@ -1,6 +1,20 @@
 {
   "events": [
     {
+      "title": "Test",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoo4zj-iYVs6XU_MshQJETz5DG27i88PwT5g&s",
+      "date": "2024-07-08",
+      "description": "Amazing event",
+      "id": "23f340cb-cf1c-4935-841a-ec214c8aeb2d"
+    },
+    {
+      "title": "A dummy event",
+      "image": "https://www.inventiva.co.in/wp-content/uploads/2023/05/eventshub_evergreen_opengraph_1200x630_2x.jpg",
+      "date": "2024-07-16",
+      "description": "Awesome event",
+      "id": "fc2e070f-4bc9-406f-8d73-75ffc8f00c54"
+    },
+    {
       "id": "e1",
       "title": "A dummy event",
       "date": "2023-02-22",
